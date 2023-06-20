@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery 01</title>
+</head>
+<body>
+
+    <h3>Belajar Pemrograman Web</h3>
+    <div id="tampil1">Matkul Hari Selasa Adalah Pemroraman Web</div>
+    <div class="tampil1">Semua Mahasiswa Sangat Semangat Mengikuti Arahan Dosen</div>
+
+    <p>Matkul Pemrograman Web</p>
+    <div id="tampil2"> Mata Kuliah Hari Ini Adalah Pemrograman Web</div>
+    <div class="tampil2">Mata Kuliah Pemrograman Web Sangat Seru</div>
+
+
+
+    <script src="JQUERY.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#tampil1").html("Matkul Hari Selasa Adalah Pemroraman Web");
+            $(".tampil1").html("Semua Mahasiswa Sangat Semangat Mengikuti Arahan Dosen");
+            $("h3").html("Belajar Pemrograman Web");
+            $("#tampil2").html("Mata Kuliah Hari Ini Adalah Pemrograman Web");
+            $("p3").html("Matkul Pemrograman Web");
+            $(".tampil1").html("Mata Kuliah Pemrograman Web Sangat Seru");
+        })
+    </script>
+</body>
+</html>
